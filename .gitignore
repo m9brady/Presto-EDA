@@ -116,3 +116,10 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Microsoft Visual Studio Code
+.vscode
+*.code-workspace
+
+# Presto-exported CSV file
+THR*.csv
