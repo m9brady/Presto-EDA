@@ -1,5 +1,5 @@
 ## Presto cost exploratory analysis
-This repo is the result of me trying to figure out if I should reinvest in the Metropass Discount Program now that presto is out:
+This repo is the result of me trying to figure out if I should reinvest in the TTC Metropass Discount Program now that Presto is out:
 
 ![png](demo.png)
 
@@ -17,7 +17,7 @@ Either fork or clone this repository to your local machine
 6) Save the `CSV` file to the `/notebooks/` subdirectory of the cloned repository
 
 #### Python Environment
-If you don't have python, [install miniconda](https://conda.io/miniconda.html) for your platform. Then create the environment in a terminal with:
+If you don't have Python and/or Conda, [install miniconda](https://conda.io/miniconda.html) for your platform. Then create the environment in a terminal with:
 ```
 conda create -n py3-geovis python=3 jupyter pandas
 conda activate py3-geovis
@@ -26,7 +26,7 @@ jupyter-notebook
 ```
 
 #### Running the code
-In the Jupyter Home interface, find and open the `presto_costs.ipynb` notebook and run the cells to see some information on your Presto history and whether or not you should have bought a MDP 
+In the Jupyter Home interface, find and open the `presto_costs.ipynb` notebook and run the cells to see some information on your Presto history and whether or not you should have bought a MDP.
 
 To quit from the `presto_costs` notebook, use `File -> Close and Halt` which will return you to the Jupyter Home interface. You can then use the `Quit` button to close and shutdown Jupyter.
 
