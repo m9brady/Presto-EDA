@@ -19,7 +19,7 @@ Either fork or clone this repository to your local machine
 #### Python Environment
 If you don't have Python and/or Conda, [install miniconda](https://conda.io/miniconda.html) for your platform. Then create the environment in a terminal with:
 ```
-conda create -n py3-geovis python=3 jupyter pandas
+conda create -n py3-geovis python=3 jupyter pandas matplotlib
 conda activate py3-geovis
 cd /path/to/cloned/repo/notebooks/
 jupyter-notebook
